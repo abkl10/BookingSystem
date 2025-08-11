@@ -1,2 +1,5 @@
 BookingSystem.UserService/appsettings.json
 BookingSystem.UserService/appsettings.*.json
+
+BookingSystem.BookingService/BookingSystem.BookingService.API/appsettings.json
+BookingSystem.BookingService/BookingSystem.BookingService.API/ppsettings.*.json
