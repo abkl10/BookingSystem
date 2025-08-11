@@ -3266,11 +3266,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem.UserService/BookingSystem.UserService.csproj",
+      "projectUniqueName": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.UserService/BookingSystem.UserService.csproj",
       "projectName": "BookingSystem.UserService",
-      "projectPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem.UserService/BookingSystem.UserService.csproj",
+      "projectPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.UserService/BookingSystem.UserService.csproj",
       "packagesPath": "/Users/abderrahmanabaakil/.nuget/packages/",
-      "outputPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem.UserService/obj/",
+      "outputPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.UserService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/abderrahmanabaakil/.nuget/NuGet/NuGet.Config"
