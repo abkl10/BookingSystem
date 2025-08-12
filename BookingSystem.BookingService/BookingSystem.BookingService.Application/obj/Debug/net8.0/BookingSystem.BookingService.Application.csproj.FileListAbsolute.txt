@@ -1,0 +1,16 @@
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/bin/Debug/net8.0/BookingSystem.BookingService.Application.deps.json
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/bin/Debug/net8.0/BookingSystem.BookingService.Application.dll
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/bin/Debug/net8.0/BookingSystem.BookingService.Application.pdb
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/bin/Debug/net8.0/BookingSystem.BookingService.Domain.dll
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/bin/Debug/net8.0/BookingSystem.BookingService.Domain.pdb
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/obj/Debug/net8.0/BookingSystem.BookingService.Application.csproj.AssemblyReference.cache
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/obj/Debug/net8.0/BookingSystem.BookingService.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/obj/Debug/net8.0/BookingSystem.BookingService.Application.AssemblyInfoInputs.cache
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/obj/Debug/net8.0/BookingSystem.BookingService.Application.AssemblyInfo.cs
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/obj/Debug/net8.0/BookingSystem.BookingService.Application.csproj.CoreCompileInputs.cache
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/obj/Debug/net8.0/BookingSystem.BookingService.Application.sourcelink.json
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/obj/Debug/net8.0/BookingS.2DCAE3A5.Up2Date
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/obj/Debug/net8.0/BookingSystem.BookingService.Application.dll
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/obj/Debug/net8.0/refint/BookingSystem.BookingService.Application.dll
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/obj/Debug/net8.0/BookingSystem.BookingService.Application.pdb
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/obj/Debug/net8.0/ref/BookingSystem.BookingService.Application.dll

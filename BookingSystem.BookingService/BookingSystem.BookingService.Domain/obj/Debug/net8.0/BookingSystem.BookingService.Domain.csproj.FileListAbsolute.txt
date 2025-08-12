@@ -1,0 +1,12 @@
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/bin/Debug/net8.0/BookingSystem.BookingService.Domain.deps.json
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/bin/Debug/net8.0/BookingSystem.BookingService.Domain.dll
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/bin/Debug/net8.0/BookingSystem.BookingService.Domain.pdb
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/obj/Debug/net8.0/BookingSystem.BookingService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/obj/Debug/net8.0/BookingSystem.BookingService.Domain.AssemblyInfoInputs.cache
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/obj/Debug/net8.0/BookingSystem.BookingService.Domain.AssemblyInfo.cs
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/obj/Debug/net8.0/BookingSystem.BookingService.Domain.csproj.CoreCompileInputs.cache
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/obj/Debug/net8.0/BookingSystem.BookingService.Domain.sourcelink.json
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/obj/Debug/net8.0/BookingSystem.BookingService.Domain.dll
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/obj/Debug/net8.0/refint/BookingSystem.BookingService.Domain.dll
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/obj/Debug/net8.0/BookingSystem.BookingService.Domain.pdb
+/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/obj/Debug/net8.0/ref/BookingSystem.BookingService.Domain.dll

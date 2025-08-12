@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BookingSystem.BookingService.Application/1.0.0": {
+        "dependencies": {
+          "BookingSystem.BookingService.Domain": "1.0.0"
+        },
+        "runtime": {
+          "BookingSystem.BookingService.Application.dll": {}
+        }
+      },
+      "BookingSystem.BookingService.Domain/1.0.0": {
+        "runtime": {
+          "BookingSystem.BookingService.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BookingSystem.BookingService.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookingSystem.BookingService.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

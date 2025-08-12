@@ -1,17 +1,163 @@
 {
   "format": 1,
   "restore": {
-    "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService.API/BookingSystem.BookingService.API.csproj": {}
+    "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.API/BookingSystem.BookingService.API.csproj": {}
   },
   "projects": {
-    "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService.API/BookingSystem.BookingService.API.csproj": {
+    "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.API/BookingSystem.BookingService.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService.API/BookingSystem.BookingService.API.csproj",
+        "projectUniqueName": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.API/BookingSystem.BookingService.API.csproj",
         "projectName": "BookingSystem.BookingService.API",
-        "projectPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService.API/BookingSystem.BookingService.API.csproj",
+        "projectPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.API/BookingSystem.BookingService.API.csproj",
         "packagesPath": "/Users/abderrahmanabaakil/.nuget/packages/",
-        "outputPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService.API/obj/",
+        "outputPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abderrahmanabaakil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/BookingSystem.BookingService.Application.csproj": {
+                "projectPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/BookingSystem.BookingService.Application.csproj"
+              },
+              "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Infrastructure/BookingSystem.BookingService.Infrastructure.csproj": {
+                "projectPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Infrastructure/BookingSystem.BookingService.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/BookingSystem.BookingService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/BookingSystem.BookingService.Application.csproj",
+        "projectName": "BookingSystem.BookingService.Application",
+        "projectPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/BookingSystem.BookingService.Application.csproj",
+        "packagesPath": "/Users/abderrahmanabaakil/.nuget/packages/",
+        "outputPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abderrahmanabaakil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/BookingSystem.BookingService.Domain.csproj": {
+                "projectPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/BookingSystem.BookingService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/BookingSystem.BookingService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/BookingSystem.BookingService.Domain.csproj",
+        "projectName": "BookingSystem.BookingService.Domain",
+        "projectPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/BookingSystem.BookingService.Domain.csproj",
+        "packagesPath": "/Users/abderrahmanabaakil/.nuget/packages/",
+        "outputPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/abderrahmanabaakil/.nuget/NuGet/NuGet.Config"
@@ -42,14 +188,85 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Infrastructure/BookingSystem.BookingService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Infrastructure/BookingSystem.BookingService.Infrastructure.csproj",
+        "projectName": "BookingSystem.BookingService.Infrastructure",
+        "projectPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Infrastructure/BookingSystem.BookingService.Infrastructure.csproj",
+        "packagesPath": "/Users/abderrahmanabaakil/.nuget/packages/",
+        "outputPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/abderrahmanabaakil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/BookingSystem.BookingService.Application.csproj": {
+                "projectPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/BookingSystem.BookingService.Application.csproj"
+              },
+              "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/BookingSystem.BookingService.Domain.csproj": {
+                "projectPath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Domain/BookingSystem.BookingService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[8.0.13, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.6.2, )"
+              "version": "[8.0.7, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
             }
           },
           "imports": [
@@ -64,9 +281,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

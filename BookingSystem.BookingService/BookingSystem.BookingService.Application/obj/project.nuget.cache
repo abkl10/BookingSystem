@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BwUadhzJZYo=",
+  "dgSpecHash": "gOYPvNFB080=",
   "success": true,
-  "projectFilePath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService.Application/BookingSystem.BookingService.Application.csproj",
+  "projectFilePath": "/Users/abderrahmanabaakil/Documents/projects/BookingSystem/BookingSystem.BookingService/BookingSystem.BookingService.Application/BookingSystem.BookingService.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
