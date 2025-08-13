@@ -53,8 +53,7 @@ public class AuthController : ControllerBase
         var token = GenerateJwtToken(user);
         return Ok(new { token });
     }
-
-    private string GenerateJwtToken(IdentityUser user)
+        private string GenerateJwtToken(IdentityUser user)
     {
         var claims = new[]
         {
@@ -62,7 +61,7 @@ public class AuthController : ControllerBase
             new Claim(JwtRegisteredClaimNames.Email, user.Email!)
         };
 
-        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]!));
+        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Secret"]!));
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
         var token = new JwtSecurityToken(
@@ -74,5 +73,6 @@ public class AuthController : ControllerBase
 
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
+
 
 }

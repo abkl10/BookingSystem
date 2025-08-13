@@ -2,6 +2,9 @@ using BookingSystem.BookingService.Application.Interfaces;
 using BookingSystem.BookingService.Infrastructure.Persistence;
 using BookingSystem.BookingService.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +22,7 @@ builder.Services.AddDbContext<BookingDbContext>(options =>
 builder.Services.AddScoped<IBookingRepository, BookingRepository>();
 
 var jwtSettings = builder.Configuration.GetSection("Jwt");
-var key = Encoding.UTF8.GetBytes(jwtSettings["Key"]!);
+var key = Encoding.UTF8.GetBytes(jwtSettings["Secret"]!);
 
 builder.Services.AddAuthentication(options =>
 {

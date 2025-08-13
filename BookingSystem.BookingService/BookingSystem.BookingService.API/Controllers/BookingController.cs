@@ -2,6 +2,7 @@ using BookingSystem.BookingService.Application.DTOs;
 using BookingSystem.BookingService.Application.Interfaces;
 using BookingSystem.BookingService.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BookingSystem.BookingService.API.Controllers;
 
