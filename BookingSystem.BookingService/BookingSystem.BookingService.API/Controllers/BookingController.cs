@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BookingSystem.BookingService.API.Controllers;
 
+[Authorize]
 [Route("api/[controller]")]
 [ApiController]
 public class BookingController : ControllerBase
@@ -28,7 +29,7 @@ public class BookingController : ControllerBase
     {
         var booking = new Booking
         {
-            UserId = dto.UserId,
+            UserId = Guid.Parse(User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value!),
             ServiceType = dto.ServiceType,
             BookingDate = dto.BookingDate,
             Price = dto.Price
